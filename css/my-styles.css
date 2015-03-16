@@ -1,0 +1,529 @@
+/*---------------------- LAYOUT ----------------------*/
+
+html {
+	font-size:16px;
+	
+}
+
+body {
+	background-color:#fff; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#797979;
+
+
+}
+
+html, body { 
+	overflow-x: hidden; /*gets rid of awkward gap on side of page*/
+}
+
+
+/*---------------------- NAVBAR ----------------------*/
+
+.menu {
+	color:#797979;
+	list-style-type: none; 
+	font-weight:500;
+	line-height:20px;
+	position:absolute;
+	left:2rem;
+	top:3rem;
+    position:fixed;
+}
+
+.menu > li > a:hover,
+.menu > li > a:focus {
+	text-decoration:none;
+	color:#AFAFAF;
+}
+
+.active-slash {
+	display:inline-block;
+	margin-left:-30px;
+	position:absolute;
+	font-size:1.3em;
+}
+
+#big-slash {
+    float:left;
+    font-size:7.7rem;
+    color:#fff;
+    margin-left:-55px;
+    margin-top:40px;
+    font-weight:300;
+}
+
+.menu ul {
+        position: absolute;
+        visibility: hidden;
+        top: 27px;
+    }
+ 
+ .menu li:hover ul {
+        visibility: visible;
+    }
+
+.drop-down {
+    list-style-type: none; 
+    font-weight:400;
+    line-height:20px;
+    left:6rem;
+    margin-top:-0.4rem;
+    width:200px;
+    font-size:0.7rem;
+
+}
+
+
+.designer-name {
+    font-style: italic;
+    color:#cecece;
+
+}
+
+
+
+
+
+
+/*---------------------- FOOTER ----------------------*/
+footer p {
+    text-align:center;
+    padding:1.5rem;
+}
+
+
+/*---------------------- HOME PAGE ----------------------*/
+
+     #hotspot1 {
+        width: 4.7%;
+        height: 78%;
+        position: absolute;
+        top: 22%;
+        left: 6%;
+        background:lime;
+        opacity:0;
+    }
+
+    #hotspot2 {
+        width: 4.7%;
+        height: 70%;
+        position: absolute;
+        top: 20%;
+        left: 19%;
+        background:lime;
+        opacity:0;
+    }
+   #hotspot3{
+        width: 4.7%;
+        height: 65%;
+        position: absolute;
+        top: 23%;
+        left: 30%;
+        background:yellow;
+        opacity:0;
+    }
+
+    #hotspot4{
+        width: 4%;
+        height: 58%;
+        position: absolute;
+        top: 24%;
+        left: 37%;
+        background:yellow;
+        opacity:0;
+    }
+
+    #hotspot5{
+        width: 4%;
+        height: 54%;
+        position: absolute;
+        top: 25%;
+        left: 44%;
+        background:purple;
+        opacity:0;
+    }
+
+    #hotspot6 {
+        width: 3.2%;
+        height: 45%;
+        position: absolute;
+        top: 28.5%;
+        left: 51.3%;
+        background:orange;
+        opacity:0;
+    }
+    #hotspot7 {
+        width: 3%;
+        height: 45%;
+        position: absolute;
+        top: 28.5%;
+        left: 57%;
+        background:blue;
+        opacity:0;
+    }
+    #hotspot8 {
+        width: 2.4%;
+        height: 40%;
+        position: absolute;
+        top: 28.5%;
+        left: 62.4%;
+        background:red;
+        opacity:0;
+    }
+    
+    .hover1 {
+        background: url(../images/home-single-1.jpg) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+    .hover2 {
+        background: url(../images/home-single-2.jpg) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+    .hover3 {
+        background: url(../images/home-single-3.jpg) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+    .hover4 {
+        background: url(../images/home-single-4.jpg) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+    .hover5 {
+        background: url(../images/home-single-5.jpg) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+    .hover6 {
+        background: url(../images/home-single-6.jpg) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+    .hover7 {
+        background: url(../images/home-single-7.jpg) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+    .hover8 {
+        background: url(../images/home-single-8.jpg) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+/*---------------------- TYPOGRAPHY ----------------------*/
+
+a, a:visited {
+	color:#797979;
+}
+
+a:hover {
+	color:#AFAFAF;
+}
+
+p {
+	color:#797979;
+}
+
+/*---------------------- CONTACT ----------------------*/
+/*.contact-info {
+	text-align:center;
+	margin:0 auto;
+
+}
+
+.contact-info h1 {
+	font-size:1.8rem;
+	margin-top:17rem;
+	margin-bottom:2rem;
+}
+
+.contact-info h2 {
+	font-size:1.3rem;
+	line-height:0.7rem;
+	font-weight:300;
+
+}*/
+
+
+.jumbotron {
+	padding-top:14rem;
+}
+
+.jumbotron h2 {
+	font-size:2.6rem;
+	margin-bottom:2rem;
+}
+
+.jumbotron a {
+	font-size:1.5rem;
+	font-weight:500;
+	text-decoration: none;
+	line-height:0.6rem;
+}
+
+
+
+
+
+/*---------------------- PRESS PAGE ----------------------*/
+
+.press-gallery {
+	margin-top:3.2rem;
+
+}
+
+
+.col-xs-2 {
+	padding-right: 20px;
+  	padding-left: 20px;
+}
+
+.press-gallery img {
+	margin-bottom:10px;
+  	border:1px solid #797979;
+    opacity:1;
+    background:#000;
+}
+
+.press-gallery p {
+text-align:center;
+padding-top:-2rem;
+padding-bottom: 1rem;
+}
+
+
+.press-thumbnail { position: relative;}
+.press-thumbnail img { max-width: 100%; max-height: 100%; }
+.press-thumbnail a:hover:after {content:"/"; font-size:10rem; color:#fff; padding-left:6rem; padding-top:3.5rem; position:absolute; top:0; left:0; bottom:0; right:0; background-color: rgba(63,63,63,0.45);}
+
+
+/*---------------------- COLLECTION ----------------------*/
+.lookbook {
+    margin-top:-4.7rem;
+    margin-bottom: 4rem;
+}
+
+.lookbook img {
+    margin-top:8rem;
+
+}
+
+.lookbook p {
+text-align:left;
+padding-top:1.3rem;
+padding-bottom: 6rem;
+}
+
+.lookbox{
+    padding-top: 4rem;
+    text-decoration: none;
+}
+
+
+/*---------------------- ABOUT ME PAGE ----------------------*/
+
+#bio-text {
+    margin-top: 30%;
+    font-weight:500;
+    font-size: 1rem;
+    line-height:1.5rem;
+}
+
+
+/*---------------------- CONTACT ME PAGE ----------------------*/
+
+
+
+
+/*---------------------- MEDIA QUERIES ----------------------*/
+
+
+@media (max-width:1248px) {
+	
+     #hotspot1 {
+        width: 4.7%;
+        height: 78%;
+        top: 22%;
+        left: 1%;
+    }
+
+    #hotspot2 {
+        width: 4.7%;
+        height: 70%;
+        top: 20%;
+        left: 17%;
+    }
+   #hotspot3{
+        width: 4.7%;
+        height: 65%;
+        top: 23%;
+        left: 28%;
+    }
+    #hotspot4{
+        width: 4%;
+        height: 58%;
+        top: 24%;
+        left: 36%;
+    }
+
+    #hotspot5{
+        width: 4%;
+        height: 54%;
+        top: 25%;
+        left: 43%;
+    }
+    #hotspot6 {
+        width: 3.2%;
+        height: 45%;
+        top: 28.5%;
+        left: 52.3%;
+    }
+    #hotspot7 {
+        width: 3%;
+        height: 45%;
+        top: 28.5%;
+        left: 58%;
+    }
+    #hotspot8 {
+        width: 2.4%;
+        height: 40%;
+        top: 28.5%;
+        left: 63.4%;
+    }
+}
+
+
+
+
+@media (max-width:1134px) {
+	
+    #hotspot1 {
+        width: 4.7%;
+        height: 78%;
+        top: 22%;
+        left: -2%;
+    }
+
+    #hotspot2 {
+        width: 4.7%;
+        height: 70%;
+        top: 20%;
+        left: 14%;
+    }
+   #hotspot3{
+        width: 4.7%;
+        height: 65%;
+        top: 23%;
+        left: 25%;
+    }
+    #hotspot4{
+        width: 4%;
+        height: 58%;
+        top: 24%;
+        left: 35%;
+    }
+
+    #hotspot5{
+        width: 4%;
+        height: 54%;
+        top: 25%;
+        left: 43%;
+    }
+    #hotspot6 {
+        width: 3.2%;
+        height: 45%;
+        top: 28.5%;
+        left: 52.3%;
+    }
+    #hotspot7 {
+        width: 3%;
+        height: 45%;
+        top: 28.5%;
+        left: 59%;
+    }
+    #hotspot8 {
+        width: 2.4%;
+        height: 40%;
+        top: 28.5%;
+        left: 65%;
+    }
+}
+
+
+@media (max-width:1058px) {
+	
+    #hotspot2 {
+        width: 4.7%;
+        height: 70%;
+        top: 20%;
+        left: 10%;
+    }
+   #hotspot3{
+        width: 4.7%;
+        height: 65%;
+        top: 23%;
+        left: 23%;
+    }
+    #hotspot6 {
+        width: 3.2%;
+        height: 45%;
+        top: 28.5%;
+        left: 52.3%;
+    }
+    #hotspot7 {
+        width: 3%;
+        height: 45%;
+        top: 28.5%;
+        left: 60%;
+    }
+    #hotspot8 {
+        width: 2.4%;
+        height: 40%;
+        top: 28.5%;
+        left: 66%;
+    }
+}
+
+
+
+/*medium sized devices - notebooks */
+@media (max-width:991px) {
+	html {
+		font-size:14px;
+	}
+}
+
+/*small sized devices - tablets */
+@media (max-width:767px) {
+	html {
+		font-size:13px;
+	}
+}
+
+
+/*extra small sized devices - phones */
+@media (max-width:375px) {
+
+	html {
+		font-size:10px;
+	}
+
+}
+
+/*extra extra small sized devices - iphone 4 etc */
+@media (max-width:320px) {
+	html {
+		font-size:8px;
+	}
+
+}
+
